@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <Spinner
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner"
+            android:layout_weight="0.90" />
+
+        <Spinner
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner2"
+            android:layout_weight="0.90" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView2"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:id="@+id/add_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/plus1" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:id="@+id/btn_delete"
+            android:gravity="right"
+            android:background="@drawable/selector_custom" />
+    </LinearLayout>
+
+</LinearLayout>

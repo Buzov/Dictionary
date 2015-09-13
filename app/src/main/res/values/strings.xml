@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="word_is_empty">Пустое поле</string>
+    <string name="tr_is_empty">Пустое поле</string>
+    <string name="ru_is_empty">Пустое поле</string>
+    <string name="add_word">Word</string>
+    <string name="add_transcription">Transcription</string>
+    <string name="add_translation">Translation</string>
+</resources>
